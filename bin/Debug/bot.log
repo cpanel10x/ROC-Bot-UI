@@ -1,0 +1,145 @@
+2019-08-21 16:28:57,545 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-21 16:30:55,467 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-21 16:31:44,731 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-21 16:31:44,890 [1] DEBUG ROC.MainWindow - ok
+2019-08-21 16:32:16,587 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-21 16:32:16,759 [1] DEBUG ROC.MainWindow - ok
+2019-08-21 16:32:19,723 [1] INFO ROC.Bot - Bot starting...
+2019-08-21 16:32:19,756 [1] DEBUG ROC.AdbClass - Trying to connect to emulator
+2019-08-21 16:32:19,919 [1] INFO ROC.AdbClass - Connected to : 127.0.0.1:21513
+2019-08-21 16:32:20,235 [1] INFO ROC.AdbClass - Physical size: 1920x1200
+
+2019-08-21 16:32:20,236 [1] INFO ROC.AdbClass - String[] {1920, 1200}
+2019-08-21 16:32:20,237 [1] INFO ROC.AdbClass - done here...
+2019-08-21 16:32:20,237 [1] INFO ROC.AdbClass - Resolution : 1920x1200
+2019-08-21 16:32:20,237 [1] INFO ROC.Bot - done here...
+2019-08-21 16:32:20,237 [1] DEBUG ROC.Bot - Resource folder used : resources/Game/resolutions/1920x1200/
+2019-08-21 16:32:23,274 [1] INFO ROC.Bot - Trying to start the app...
+2019-08-21 16:32:23,274 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/App.jpg
+2019-08-21 16:32:26,065 [1] DEBUG ROC.ImageNotFound - Image not found
+2019-08-21 16:32:26,102 [1] INFO ROC.Bot - Game already started ?
+2019-08-21 16:32:26,102 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/EventQuest.jpg
+2019-08-21 16:32:28,762 [1] INFO ROC.Bot - Is home?
+2019-08-21 16:32:28,762 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/Map.jpg
+2019-08-21 16:32:31,165 [1] INFO ROC.Bot - Already in town ! Recenter Home
+2019-08-21 16:32:31,165 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/Map.jpg
+2019-08-21 16:32:33,521 [1] DEBUG ROC.AdbClass - Tap (rectangle) 92 1103
+2019-08-21 16:32:34,826 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/Home.jpg
+2019-08-21 16:32:37,421 [1] DEBUG ROC.ImageNotFound - Image not found
+2019-08-21 16:32:37,443 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/Home.jpg
+2019-08-21 16:32:39,903 [1] DEBUG ROC.AdbClass - Tap (rectangle) 93 1105
+2019-08-21 16:32:40,215 [1] INFO ROC.Bot - Game started!
+2019-08-21 16:32:41,518 [1] INFO ROC.Bot - Trying to explore...
+2019-08-21 16:32:41,518 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/ExploreNotif.jpg
+2019-08-21 16:32:44,993 [1] DEBUG ROC.AdbClass - Tap (rectangle) 717 834
+2019-08-21 16:32:45,321 [1] INFO ROC.Bot - Starting new exploration
+2019-08-21 16:32:48,322 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/ExploreMenu.jpg
+2019-08-21 16:32:51,714 [1] DEBUG ROC.AdbClass - Tap (rectangle) 932 975
+2019-08-21 16:32:55,049 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/ExploreButton.jpg
+2019-08-21 16:32:57,783 [1] DEBUG ROC.AdbClass - Tap (rectangle) 1499 534
+2019-08-21 16:33:01,124 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/ExploreButton.jpg
+2019-08-21 16:33:04,216 [1] DEBUG ROC.AdbClass - Tap (rectangle) 1204 833
+2019-08-21 16:50:55,870 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-21 16:50:55,993 [1] INFO ROC.MainWindow - Bot starting...
+2019-08-21 16:50:55,993 [1] DEBUG ROC.MainWindow - ok
+2019-08-21 16:52:16,270 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-21 16:52:16,411 [1] INFO ROC.MainWindow - Bot starting...
+2019-08-21 16:52:16,412 [1] DEBUG ROC.MainWindow - ok
+2019-08-21 16:52:37,854 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-21 16:52:38,001 [1] INFO ROC.MainWindow - Bot starting...
+2019-08-21 16:52:38,002 [1] DEBUG ROC.MainWindow - ok
+2019-08-21 16:52:42,877 [1] INFO ROC.Bot - Bot starting...
+2019-08-21 16:52:42,885 [1] DEBUG ROC.AdbClass - Trying to connect to emulator
+2019-08-21 16:52:42,949 [1] INFO ROC.AdbClass - Connected to : 127.0.0.1:21513
+2019-08-21 16:52:43,257 [1] INFO ROC.AdbClass - Physical size: 1920x1200
+
+2019-08-21 16:52:43,258 [1] INFO ROC.AdbClass - String[] {1920, 1200}
+2019-08-21 16:52:43,259 [1] INFO ROC.AdbClass - done here...
+2019-08-21 16:52:43,259 [1] INFO ROC.AdbClass - Resolution : 1920x1200
+2019-08-21 16:52:43,259 [1] INFO ROC.Bot - done here...
+2019-08-21 16:52:43,259 [1] DEBUG ROC.Bot - Resource folder used : resources/Game/resolutions/1920x1200/
+2019-08-21 16:52:46,077 [1] INFO ROC.Bot - Trying to start the app...
+2019-08-21 16:52:46,078 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/App.jpg
+2019-08-21 16:52:48,887 [1] DEBUG ROC.ImageNotFound - Image not found
+2019-08-21 16:52:48,924 [1] INFO ROC.Bot - Game already started ?
+2019-08-21 16:52:48,924 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/EventQuest.jpg
+2019-08-21 17:02:32,735 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-21 17:02:32,865 [1] INFO ROC.MainWindow - Bot starting...
+2019-08-21 17:02:32,865 [1] DEBUG ROC.MainWindow - ok
+2019-08-21 17:02:35,782 [1] INFO ROC.Bot - Bot starting...
+2019-08-21 17:02:35,788 [1] DEBUG ROC.AdbClass - Trying to connect to emulator
+2019-08-21 17:02:35,862 [1] INFO ROC.AdbClass - Connected to : 127.0.0.1:21513
+2019-08-21 17:02:36,204 [1] INFO ROC.AdbClass - Physical size: 1920x1200
+
+2019-08-21 17:02:36,205 [1] INFO ROC.AdbClass - String[] {1920, 1200}
+2019-08-21 17:02:36,206 [1] INFO ROC.AdbClass - done here...
+2019-08-21 17:02:36,206 [1] INFO ROC.AdbClass - Resolution : 1920x1200
+2019-08-21 17:02:36,206 [1] INFO ROC.Bot - done here...
+2019-08-21 17:02:36,206 [1] DEBUG ROC.Bot - Resource folder used : resources/Game/resolutions/1920x1200/
+2019-08-21 17:02:39,134 [1] INFO ROC.Bot - Trying to start the app...
+2019-08-21 17:02:39,135 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/App.jpg
+2019-08-21 17:02:41,637 [1] DEBUG ROC.ImageNotFound - Image not found
+2019-08-21 17:02:41,673 [1] INFO ROC.Bot - Game already started ?
+2019-08-21 17:02:41,674 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/EventQuest.jpg
+2019-08-21 17:02:44,341 [1] DEBUG ROC.ImageNotFound - Image not found
+2019-08-21 17:02:44,361 [1] INFO ROC.Bot - Game starting...
+2019-08-21 17:02:44,361 [1] DEBUG ROC.Bot - Trying to clear windows...
+2019-08-21 17:02:44,362 [1] INFO ROC.Bot - Closing CloseWindows
+2019-08-21 17:02:44,362 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/CloseWindows.jpg
+2019-08-21 17:02:46,976 [1] DEBUG ROC.AdbClass - Tap (rectangle) 1670 166
+2019-08-21 17:02:47,292 [1] INFO ROC.Bot - Closing CloseWindows2
+2019-08-21 17:02:47,292 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/CloseWindows2.jpg
+2019-08-21 17:02:49,909 [1] DEBUG ROC.ImageNotFound - Image not found
+2019-08-21 17:02:49,934 [1] INFO ROC.Bot - Can't find CloseWindows2
+2019-08-21 17:02:49,934 [1] INFO ROC.Bot - Done Clear Windows
+2019-08-21 17:02:54,936 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/EventQuest.jpg
+2019-08-21 17:02:58,159 [1] DEBUG ROC.ImageNotFound - Image not found
+2019-08-21 17:02:58,181 [1] INFO ROC.Bot - Game starting...
+2019-08-21 17:02:58,181 [1] DEBUG ROC.Bot - Trying to clear windows...
+2019-08-21 17:02:58,181 [1] INFO ROC.Bot - Closing CloseWindows
+2019-08-21 17:02:58,181 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/CloseWindows.jpg
+2019-08-21 17:03:01,342 [1] DEBUG ROC.ImageNotFound - Image not found
+2019-08-21 17:03:01,364 [1] INFO ROC.Bot - Can't find CloseWindows
+2019-08-21 17:03:01,364 [1] INFO ROC.Bot - Closing CloseWindows2
+2019-08-21 17:03:01,364 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/CloseWindows2.jpg
+2019-08-21 17:03:04,438 [1] DEBUG ROC.ImageNotFound - Image not found
+2019-08-21 17:03:04,460 [1] INFO ROC.Bot - Can't find CloseWindows2
+2019-08-21 17:03:04,460 [1] INFO ROC.Bot - Done Clear Windows
+2019-08-21 17:03:09,461 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/EventQuest.jpg
+2019-08-21 17:03:12,238 [1] INFO ROC.Bot - Is home?
+2019-08-21 17:03:12,238 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/Map.jpg
+2019-08-21 17:03:15,087 [1] INFO ROC.Bot - Already in town ! Recenter Home
+2019-08-21 17:03:15,087 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/Map.jpg
+2019-08-21 17:03:17,993 [1] DEBUG ROC.AdbClass - Tap (rectangle) 92 1103
+2019-08-21 17:03:19,321 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/Home.jpg
+2019-08-21 17:03:22,344 [1] DEBUG ROC.AdbClass - Tap (rectangle) 93 1105
+2019-08-21 17:03:22,671 [1] INFO ROC.Bot - Recenter OK
+2019-08-21 17:03:22,671 [1] INFO ROC.Bot - Game started!
+2019-08-21 17:03:23,932 [1] DEBUG ROC.MainWindow - Game bat roi
+2019-08-21 17:03:23,932 [1] INFO ROC.Bot - Trying to explore...
+2019-08-21 17:03:23,932 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/ExploreNotif.jpg
+2019-08-21 17:03:27,459 [1] DEBUG ROC.AdbClass - Tap (rectangle) 717 834
+2019-08-21 17:03:27,779 [1] INFO ROC.Bot - Starting new exploration
+2019-08-21 17:03:30,779 [1] DEBUG ROC.Bot - Trying to find image on screen  : resources/Game/resolutions/1920x1200/ExploreMenu.jpg
+2019-08-22 09:25:41,972 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-22 09:25:42,059 [1] INFO ROC.MainWindow - Bot starting...
+2019-08-22 09:25:42,059 [1] DEBUG ROC.MainWindow - ok
+2019-08-22 09:29:14,598 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-22 09:29:14,689 [1] INFO ROC.MainWindow - Bot starting...
+2019-08-22 09:29:14,690 [1] DEBUG ROC.MainWindow - ok
+2019-08-22 09:29:22,328 [1] INFO ROC.Bot - Bot starting...
+2019-08-22 09:29:22,393 [1] DEBUG ROC.AdbClass - Trying to connect to emulator
+2019-08-22 09:29:29,755 [1] ERROR ROC.AdbClass - Connexion error : System.Collections.ListDictionaryInternal
+2019-08-22 09:29:29,817 [1] ERROR ROC.MainWindow - Bot stopped
+2019-08-22 09:48:01,424 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-22 09:48:01,546 [1] INFO ROC.MainWindow - Bot starting...
+2019-08-22 09:48:01,548 [1] DEBUG ROC.MainWindow - ok
+2019-08-22 09:48:18,160 [1] INFO ROC.Bot - Bot starting...
+2019-08-22 09:48:18,189 [1] DEBUG ROC.AdbClass - Trying to connect to emulator
+2019-08-22 09:48:25,456 [1] ERROR ROC.AdbClass - Connexion error : System.Collections.ListDictionaryInternal
+2019-08-22 09:48:25,512 [1] ERROR ROC.MainWindow - Bot stopped
+2019-08-22 09:49:30,355 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-22 09:49:30,444 [1] INFO ROC.MainWindow - Bot starting...
+2019-08-22 09:49:30,445 [1] DEBUG ROC.MainWindow - ok
+2019-08-23 16:17:40,359 [1] INFO ROC.App -         =============  Started Logging  =============        
+2019-08-23 16:17:40,440 [1] INFO ROC.MainWindow - Waiting for start...
