@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:ROC"
         mc:Ignorable="d"
         Name="MainOK"
-        Title="MainWindow" Height="450" Width="647.333">
-    <Grid Margin="0,0,55,0">
+        Title="MainWindow" Height="452" Width="594.666">
+    <Grid HorizontalAlignment="Left" Width="584">
         <Label Name="statusLb" Content="Status :" Margin="31,0,0,388" Height="24" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="55"/>
         <Label Name="statusContent" Content="Disconnected" Margin="80,0,0,388" Cursor="None" FontWeight="Bold" Height="24" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="162"/>
         <Button Margin="31,0,0,351" Click="Button_Click" Height="26" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="55">Start</Button>
         <Button Margin="104,0,0,351" Click="btnStop" HorizontalAlignment="Left" Width="55" Height="26" VerticalAlignment="Bottom">stop</Button>
-        <TextBox ScrollViewer.VerticalScrollBarVisibility="Auto" Name="LogBox" Text="" Margin="10,0,0,10" Height="250" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="562"/>
+        <TextBox ScrollViewer.VerticalScrollBarVisibility="Auto" Name="LogBox" Text="" Margin="10,0,12,10" Height="250" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
