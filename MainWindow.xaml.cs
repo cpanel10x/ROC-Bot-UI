@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,7 @@ namespace ROC
         public MainWindow()
         {
             InitializeComponent();
+
             //log4net.Config.XmlConfigurator.Configure();
             log.Info("Waiting for start...");
 
@@ -54,8 +56,9 @@ namespace ROC
                         return;
                     //bot.CollectResources();
                     //bot.CollectTroops();
-
+                    if (globalVar.isExploe)
                     bot.Explore();
+                    return;
                     //bot.CollectTribalVillage();
 
                 }
@@ -88,11 +91,31 @@ namespace ROC
             statusContent.Content = "Stopped";
             
         }
+        private void mayUnchecked(object sender, RoutedEventArgs e)
+        {
+            globalVar.isExploe = false;
+            Properties.Settings.Default.isMoMay = MoMay.IsChecked.HasValue ? MoMay.IsChecked.Value : false;
+            Properties.Settings.Default.Save();
+        }
+
+        private void mayChecked(object sender, RoutedEventArgs e)
+        {
+
+            globalVar.isExploe = true;
+            Properties.Settings.Default.isMoMay = MoMay.IsChecked.HasValue ? MoMay.IsChecked.Value : true;
+            Properties.Settings.Default.Save();
+
+        }
     }
     public static class globalVar
     {
         public static bool isStop{ get; set; }
         public static string status { get; set; }
+        public static bool isExploe { get; set; }
+        public static bool isVillageGif { get; set; }
+        public static bool isRSS { get; set; }
+        public static bool isArmy { get; set; }
     }
+
    
 }

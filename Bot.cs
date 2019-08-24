@@ -386,4 +386,15 @@ namespace ROC
 
         }
     }
+    class StopProcess : Exception
+    {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        public StopProcess() 
+            {
+
+            log.Debug("Program need to stop");
+
+            } 
+    }
+
 }

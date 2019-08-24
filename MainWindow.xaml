@@ -4,14 +4,40 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ROC"
+        xmlns:properties="clr-namespace:ROC.Properties"
         mc:Ignorable="d"
         Name="MainOK"
-        Title="MainWindow" Height="452" Width="594.666">
-    <Grid HorizontalAlignment="Left" Width="584">
-        <Label Name="statusLb" Content="Status :" Margin="31,0,0,388" Height="24" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="55"/>
-        <Label Name="statusContent" Content="Disconnected" Margin="80,0,0,388" Cursor="None" FontWeight="Bold" Height="24" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="162"/>
-        <Button Margin="31,0,0,351" Click="Button_Click" Height="26" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="55">Start</Button>
-        <Button Margin="104,0,0,351" Click="btnStop" HorizontalAlignment="Left" Width="55" Height="26" VerticalAlignment="Bottom">stop</Button>
-        <TextBox ScrollViewer.VerticalScrollBarVisibility="Auto" Name="LogBox" Text="" Margin="10,0,12,10" Height="250" VerticalAlignment="Bottom"/>
+        Title="{Binding Source={x:Static properties:Settings.Default}, Path=AppTitle}" Height="452" Width="434.666" ResizeMode="NoResize">
+    <Grid HorizontalAlignment="Left" Width="425">
+        <TabControl>
+            <TabItem Header="Main">
+                <Grid>
+                    <Label Name="statusLb" Content="Status :" Margin="31,3,0,0" HorizontalAlignment="Left" Width="55" Height="24" VerticalAlignment="Top"/>
+                    <Label Name="statusContent" Content="Disconnected" Margin="80,3,0,0" Cursor="None" FontWeight="Bold" HorizontalAlignment="Left" Width="162" Height="24" VerticalAlignment="Top"/>
+                    <Button Margin="13,140,0,0" Click="Button_Click" HorizontalAlignment="Left" Width="55" Height="26" VerticalAlignment="Top">Start</Button>
+                    <Button Margin="86,140,0,0" Click="btnStop" HorizontalAlignment="Left" Width="55" Height="26" VerticalAlignment="Top">Stop</Button>
+                    <CheckBox x:Name="MoMay" Content="Mở mây" Margin="12,38,0,0" IsChecked="{Binding isMoMay,Mode=TwoWay, Source={x:Static properties:Settings.Default}, UpdateSourceTrigger=PropertyChanged}" Checked="mayChecked" Unchecked="mayUnchecked" HorizontalAlignment="Left" Width="167" Height="18" VerticalAlignment="Top"/>
+                    <CheckBox x:Name="Lang" Content="Thăm làng bộ lạc (trong thư)" Margin="12,61,0,0" HorizontalAlignment="Left" Width="167" Height="18" VerticalAlignment="Top"/>
+                    <CheckBox x:Name="TaiNguyen" Content="Thu hoạch tài nguyên" Margin="12,84,0,0" HorizontalAlignment="Left" Width="167" Height="18" VerticalAlignment="Top"/>
+                    <CheckBox x:Name="QuanDoi" Content="Huấn luyện quân đội" Margin="12,107,0,0" IsEnabled="False" HorizontalAlignment="Left" Width="167" Height="18" VerticalAlignment="Top"/>
+                    <ComboBox Margin="162,102,0,0" IsEnabled="False" HorizontalAlignment="Left" Width="126" Height="23" VerticalAlignment="Top">
+                        <ComboBoxItem IsSelected="True">Quân cấp 1</ComboBoxItem>
+                        <ComboBoxItem>Quân cấp 2</ComboBoxItem>
+                        <ComboBoxItem>Quân cấp 3</ComboBoxItem>
+                        <ComboBoxItem>Quân cấp 4</ComboBoxItem>
+                        <ComboBoxItem>Quân cấp 5</ComboBoxItem>
+                    </ComboBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Other">
+                <Grid>
+                    <Label Name="TelegramToken" Content="Telegram Token : " Margin="31,15,0,0" HorizontalAlignment="Left" Width="104" Height="24" VerticalAlignment="Top"/>
+                    <TextBlock Text="" Name="txtTelegramToken"  Margin="137,15,0,0" Height="24" HorizontalAlignment="Left" Width="268" VerticalAlignment="Top"></TextBlock>
+                    <Label Name="TelegramID" Content="Telegram ID : " Margin="50,39,0,0" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left" Width="87"/>
+                    <TextBlock Text="" x:Name="txtTelegramID"  Margin="137,39,0,0" Height="24" HorizontalAlignment="Left" Width="268" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <TextBox ScrollViewer.VerticalScrollBarVisibility="Auto" Name="LogBox" Text="" Margin="10,206,0,0" HorizontalAlignment="Left" Width="391" Height="207" VerticalAlignment="Top"/>
     </Grid>
 </Window>
